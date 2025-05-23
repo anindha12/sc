@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    div {
+    right: 30px;
+    border: 3px solid #737373;
+     }
+     div.absolute{
+        position: absolute;
+        left: 50px;
+        border: 3px solid blue;
+     }
+     div.relative{
+        position: relative;
+        left: 100px;
+         border: 3px solid #737373;
+     }
+     div.fixed{
+        position: fixed;
+        top: 0o;
+        right: 20px;
+        width: 300px;
+        border: 3px solid #737373;
+     }
+       div.sticky{
+        position: sticky;
+        top: 1px;
+        left:20px;
+        width: 100px;
+        border: 3px solid #737373;
+     }
+</style>
+<head>
+    <body>
+        <h2>POSITIONING</h2>
+        <div>Div with Mo positioning property</div>
+        <div class="sticky">Div With Sticky Positioning Property</div>
+        <div class="relative">Div With Relative Positioning Property</div>
+        <div class="absolute">Div With absolute Positioning Property</div>
+        <div class="fixed">Div With fixed Positioning Property</div>
+       
+    </body>
+</html>
